@@ -1,0 +1,253 @@
+/* Site Stylesheet
+  1. Global Styles
+  2. Typography Styles
+  3. Structure Styles
+  - navigation
+  -CV information
+  -left column
+  - right column
+  4. Module Styles
+  5. Component Styles
+ 
+======================================== */
+/* 1. Global Styles*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #ECF3FF;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #60B3BD;
+}
+
+main {
+  margin: 20px auto;
+}
+
+
+.container-main-table {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #60B3BD;
+  padding: 7px;
+}
+
+.container-left-column {
+  width: 35%;
+  min-width: 300px;
+  text-align: center;
+  align-items: stretch;
+  color: #ffffff;
+  background-color: #627FB0;
+}
+
+.container-right-column {
+  width: 65%;
+  align-items: stretch;
+  color: #0D1C32;
+  background-color: #ffffff;
+}
+
+section {
+  margin: 20px 0;
+}
+
+.container-projects {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+
+/*2 2. Typography Styles*/
+
+h1,
+h2 {
+  font-family: 'Lato', Helvetica, sans-serif;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+h1 {
+  font-size: 50px;
+  line-height: 1.25;
+  margin: 5px;
+}
+
+h2 {
+  font-size: 26px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 15px 5px 5px;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+
+li {
+  font-family: Helvetica, sans-serif;
+  text-align: left;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+p,
+a {
+  color: #ffffff;
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.subtitle-junior {
+  font-size: 22px;
+  font-family: serif;
+  margin-bottom: 30px;
+}
+
+.container-right-column h3,
+.container-right-column p,
+.container-right-column a {
+  color: #0D1C32;
+}
+
+.text-code {
+  font-size: 16px;
+}
+
+/*3. Structure Styles*/
+
+/* navigation */
+
+.button {
+  display: flex;
+  min-height: 40px;
+  min-width: 120px;
+  margin: 0;
+  font-weight: 500;
+  background-color: #60B3BD;
+  cursor: pointer;
+}
+
+.button a {
+  font-size: 20px;
+  color: white;
+  margin: auto;
+}
+
+.button:hover {
+  transition: 1s;
+  background-color: hsl(186, 41%, 37%);
+}
+
+a.button:active {
+  color: #0D1C32;
+}
+
+/*CV information*/
+
+/* left column */
+
+.image-my-foto {
+  width: 220px;
+  margin: 35px auto 40px;
+  border-radius: 20%;
+  border: 5px solid #fff5ee;
+}
+
+.contact_link ul {
+  list-style-type: none;
+  padding-inline-start: 25px;
+  }
+
+ul {
+  padding-inline-start: 35px;
+  }
+
+.ikon {
+  width: 30px;
+  height: 30px;
+  margin: 5px 0px;
+  vertical-align: middle;
+}
+
+/*right column*/
+
+.container-right-column section {
+  margin-left: 30px;
+  padding-bottom: 20px;
+}
+
+.section-about-me {
+  margin-top: 30px;
+}
+
+.container-about-me {
+  margin-left: 25px;
+}
+
+.subtitle-education {
+  margin-left: 55px;
+}
+
+.image-projects {
+  width: 250px;
+  height: 250px;
+}
+
+/*footer*/
+
+.link-image-footer {
+  width: 86px;
+  height: 30px;
+}
+
+/*5. Component Styles*/
+
+.line {
+  margin: 15px auto;
+  width: 80%;
+  height: 0.05rem;
+  background-color: #0D1C32
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #f5f5f5;
+}
+
+.link-right-column:hover {
+  text-decoration: underline;
+  color: #627FB0;
+}           
